@@ -1,0 +1,8 @@
+@startuml
+
+class LinkSat {
++LinkSat()
++bool send(const std::string &message) override
+}
+
+@enduml
